@@ -1,0 +1,189 @@
+#title{
+    background-color: #ff4c68;
+}
+
+h1{
+    font-family: "Montserrat";
+    font-weight: 900;
+    
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+h2{
+    font-family: "Montserrat";
+    font-weight: 900;
+    
+    font-size: 3rem;
+    line-height: 1.5;
+    line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+.container-fluid{
+
+    padding: 3% 15% 8%;
+}
+.body{
+
+    font-family: "Montserrat";
+    font-weight: 900;
+
+}
+
+
+/* Navbar */
+
+.navbar{
+    padding-left: 0;
+    padding-bottom: 4rem;
+}
+.navbar-brand{
+
+    font-family: ubuntu;
+    font-size: 2.5rem;
+
+}
+.nav-link{
+    font-size: 1.5em;
+}
+
+.download{
+    margin: 5% 3%;
+}
+
+.img-phone{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Features */
+
+.icon-features{
+
+    font-size: 3em;
+    color: #ef8172;
+    margin: 7% 0;
+}
+
+
+
+#features{
+    text-align: center;
+    padding:5% 15%;
+    background-color: white;
+    position: relative; 
+    /* bottom: 10em; */
+
+}
+
+
+.icon-features:hover{
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials{
+    
+    background-color: #ef8172;
+    color: white;
+    text-align: center;
+}
+.testimonial-image{
+
+    width: 10%;
+    border-radius: 100%;
+
+    margin: 3%;
+}
+.carousel-item{
+
+    padding: 7% 15%;
+
+}
+
+#press{
+
+    background-color: #ef8172;
+    text-align: center;
+    padding: 5% 0;  
+}
+
+.press-img{
+
+    margin: 10px 10px;
+    width: 10%;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.prices{
+
+    padding: 5% 0;
+}
+
+/* 
+Contact */
+
+#cta{
+    text-align: center;
+
+    background-color:  #ff4c68; 
+    padding: 15% 15% 10%;
+    color: white;
+}
+
+#cta h3{
+
+    font-family: "Montserrat";
+    font-weight: 900;   
+    line-height: 1.5;
+    font-size: 3rem;
+
+}
+
+
+
+/* Footer */
+
+footer{
+    text-align: center;
+    padding: 3%;
+}
+
+
+
+.social{
+    margin: 10px;
+}
+
+/* Media Query */
+
+@media (max-width: 1028px)
+{
+
+    #title{
+        text-align: center;
+    }
+    .img-phone{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+
+
+
